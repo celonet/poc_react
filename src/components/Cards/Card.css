@@ -1,0 +1,62 @@
+.cardBox {
+    position: relative;
+    padding: 10px;
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.card img {
+    min-width: 96px;
+    min-height: 96px;
+}
+
+.card a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+.item:hover {
+    color: #fff;
+    background-color: bisque;
+}
+
+.card span {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.search {
+    margin: 20px;
+    width: 100%;
+}
+
+.details-container {
+    margin: 10px;
+}
+
+.list-container {
+    height: 800px;
+    overflow-y: auto;
+}
+
+.data-loading {
+    position: absolute;
+    display: block;
+    text-align: center;
+    border: 0;
+    font-size: 5rem;
+    top: 50%;
+    left: 50%;
+}
